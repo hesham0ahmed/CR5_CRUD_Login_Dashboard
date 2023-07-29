@@ -570,7 +570,10 @@ button:hover svg {
   .usst,
   .fName,
   .lName,
-  .titleRow {
+  .titleRow,
+  th.usedP,
+  td.usedP,
+  .useid {
     display: none;
   }
 }
@@ -589,7 +592,7 @@ button:hover svg {
   .categ,
   .pictImg,
   .isbn,
-  .usedP {
+  .undopt {
     display: none;
   }
 }

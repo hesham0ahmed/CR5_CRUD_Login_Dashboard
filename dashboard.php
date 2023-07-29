@@ -42,7 +42,7 @@ if (mysqli_num_rows($resultUsers) > 0) {
         // TO SEE THE ADOPTED PET FOR THIS USER
         $layout .= "<td>";
         foreach ($adoptedAnimalIDs as $animalID) {
-            $layout .= "<p>ID: {$animalID}</p>";
+            $layout .= "<p class='useid'>ID: {$animalID}</p>";
         }
         $layout .= "</td>";
 
@@ -98,13 +98,13 @@ if (mysqli_num_rows($resultProducts) > 0) {
         // TO SEE THE USERiD WHO ADOPTED THIS PET
         $layoutProducts .= "<td>";
         foreach ($adoptedByUserIDs as $userID) {
-            $layoutProducts .= "<p>userID: {$userID}</p>";
+            $layoutProducts .= "<p class='useid'>userID: {$userID}</p>";
         }
         $layoutProducts .= "</td>";
 
         if ($rows['status'] == 1) {
             // If the pet is adopted, show the "Unadopt" button
-            $layoutProducts .= "<td>";
+            $layoutProducts .= "<td  class='undopt'>";
             if (!empty($adoptedByUserIDs)) {
                 // Get the first user who adopted the pet
                 $userID = $adoptedByUserIDs[0];
@@ -199,7 +199,7 @@ if (mysqli_num_rows($resultProducts) > 0) {
                     <th scope="col" class="lName">Lastname</th>
                     <th scope="col" class="emailth">Email</th>
                     <th scope="col" class="usst">Adopted</th>
-                    <th scope="col">Update</th>
+                    <th scope="col" class="useid">Update</th>
                     <th scope="col">Delete</th>
                 </tr>
             </thead>
@@ -230,7 +230,7 @@ if (mysqli_num_rows($resultProducts) > 0) {
 
                     <!-- <th scope="col" class="availa">Available</th> -->
                     <th scope="col" class="usedP">Vaccinated</th>
-                    <th scope="col">UserId</th>
+                    <th scope="col" class="useid">UserId</th>
                     <th scope="col" class="availa">Available</th>
                     <th scope="col">Update</th>
                     <th scope="col">Delete</th>
