@@ -92,7 +92,7 @@
     </div>
     <ul class='list-group list-group-flush'>
       <li class='list-group-item'>Age: <b>{$row["age"]}</b></li>
-      <li class='list-group-item'>Weight: <b>{$row["weights"]}</b></li>
+      <li class='list-group-item'>Weight: <b>{$row["weights"]} kg</b></li>
       <li class='list-group-item'>Description: <b>{$row["big_description"]}</b></li>
       <li class='list-group-item'>Breed: <b>{$row["breed"]}</b></li>
       <li class='list-group-item'>Location: <b>{$row["locations"]}</b> </li>
@@ -104,7 +104,7 @@
       <li class='list-group-item'>Size: <b>{$row["sizes"]}</b></li>
       <li class='list-group-item'>Status: <b>{$statusLabel}</b></li>
       <li class='list-group-item'>Vaccinated: <b>{$vacc}</b></li>
-      <li class='list-group-item'>Price: <b>{$price}$</b></li>
+      <li class='list-group-item'>Price: <b>{$price} $</b></li>
 <div class='but'>
       <a href='delete.php?id={$row["id"]}' class='button3 my-2' style='border: solid red 2px;' >Delete</a>
       <a href='update.php?id={$row["id"]}' class='button3 my-2 mx-2' style='border: solid orange 2px;'>Update</a>

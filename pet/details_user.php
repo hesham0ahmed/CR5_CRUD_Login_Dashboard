@@ -86,6 +86,7 @@
     </div>
     <ul class='list-group list-group-flush'>
       <li class='list-group-item'>Age: <b>{$row["age"]}</b></li>
+      <li class='list-group-item'>Weight: <b>{$row["weights"]} kg</b></li>
       <li class='list-group-item'>Description: <b>{$row["big_description"]}</b></li>
       <li class='list-group-item'>Breed: <b>{$row["breed"]}</b></li>
       <li class='list-group-item'>Locations: <b>{$row["locations"]}</b> </li>
@@ -97,7 +98,7 @@
       <li class='list-group-item'>Size: <b>{$row["sizes"]}</b></li>
       <li class='list-group-item'>Status: <b>{$statusLabel}</b></li>
       <li class='list-group-item'>Vaccinated: <b>{$vacc}</b></li>
-      <li class='list-group-item'>Price: <b>{$price}$</b></li>
+      <li class='list-group-item'>Price: <b>{$price} $</b></li>
 <div class='but'>
      
       <a href='index.php' class='button3 my-2' style='border: solid blue 2px;'>Go Back</a><div>
