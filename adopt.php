@@ -78,7 +78,7 @@ if ($_GET['id']) {
 </div>";
   } elseif (mysqli_num_rows($result) == 0) { // pet not found or already adopted
     $layoutAdopt = "<h3 class='text-center m-5'>I am currently not available for adoption, I have a Beautiful Home now!</h3>
-    <div class='but mb-5'><img src='/pictures/ado.webp' alt='' srcset='' height=300px></div>
+    <div class='but mb-5'><img src='pictures/ado.webp' alt='' srcset='' height=300px></div>
     <div class='container text-center'><a href='home.php'><button class='btn btn-secondary' type='button'>OK, go back!</button></a></div>
     ";
   }
