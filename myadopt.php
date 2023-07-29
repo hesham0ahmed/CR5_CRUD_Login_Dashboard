@@ -44,7 +44,7 @@ if (mysqli_num_rows($result) > 0) {
     <div class='row row-cols-lg-4 row-cols-md-3 row-cols-sm-2 row-cols-xs-1'>
     <div>
       <div class='card my-2 mx-2' style='width:20rem'>
-        <img src='../pictures/$productImage' class='card-img-top cover' style='object-fit: cover; height: 20rem;' alt='img'>
+        <img src='pictures/$productImage' class='card-img-top cover' style='object-fit: cover; height: 20rem;' alt='img'>
         <div class='card-body'>
           <h5 class='card-title'><b>$petname</b></h5>
          
