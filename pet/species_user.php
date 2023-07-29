@@ -23,7 +23,7 @@
           </li>
           <li class="nav-item">
 
-            <a class="nav-link text-white btn3" href="pet/create.php">My Adoptions</a>
+            <a class="nav-link text-white btn3" href="../myadopt.php">My Adoptions</a>
           </li>
           <li></li>
           <li class="dashboard"><a class="btn3 nav-link text-white mx-3" href="../home.php">Home</a></li>
