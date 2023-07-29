@@ -46,7 +46,7 @@ if ($_GET['id']) {
     $vacc = ($row["vacc"] == 0) ? "No" : "<span style='color: red;'>Yes</span>";
     $layoutAdopt = "   
     <div class='container d-flex justify-content-center'><div class='card my-2 mx-2' style='width: 42rem;'>
-    <img src='../pictures/$image' class='card-img-top cover' style='object-fit: cover; height: 20rem;' alt='img'>
+    <img src='pictures/$image' class='card-img-top cover' style='object-fit: cover; height: 20rem;' alt='img'>
   <div class='card-body'>
     <h5 class='card-title'><b>$petname</b></h5>
     <p class='card-text'>Overview: <b>$short_description</b></p>
